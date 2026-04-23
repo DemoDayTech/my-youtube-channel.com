@@ -1,0 +1,28 @@
+body {
+    
+    
+    text-align: center;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive;
+    
+  
+    /* 🌈 animated gradient background */
+    background: linear-gradient(-45deg, #4facfe, #00f2fe, #a6c1ee, #fbc2eb);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+}
+
+
+
+/* 🎞️ animation */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
